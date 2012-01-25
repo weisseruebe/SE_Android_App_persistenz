@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.uml2.uml_3.1.2.v201010261927.jar" sourcepath="/Applications/eclipse3.6/plugins/org.eclipse.uml2.uml.source_3.1.2.v201010261927.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.uml2_3.0.0.v201005031530.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.uml2.codegen.ecore_1.6.0.v201005031530.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.uml2.codegen.ecore.ui_1.6.0.v201005031530.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.uml2.codegen.ecore.ui.source_1.6.0.v201005031530.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.uml2.common_1.5.0.v201005031530.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.uml2.common.edit_1.5.0.v201005031530.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.uml2.uml.ecore.exporter_2.4.0.v201005031530.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.uml2.uml.ecore.exporter.source_2.4.0.v201005031530.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.uml2.uml.ecore.importer_2.4.0.v201005031530.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.uml2.uml.ecore.importer.source_2.4.0.v201005031530.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.uml2.uml.edit_3.1.0.v201005031530.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.uml2.uml.edit.source_3.1.0.v201005031530.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.uml2.uml.editor_3.1.0.v201005031530.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.uml2.uml.editor.source_3.1.0.v201005031530.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.uml2.uml.resources_3.1.1.v201008191505.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.uml2.uml.resources.source_3.1.1.v201008191505.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.uml2.uml.source_3.1.2.v201010261927.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
