@@ -21,5 +21,6 @@
 	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.uml2.uml.resources_3.1.1.v201008191505.jar"/>
 	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.uml2.uml.resources.source_3.1.1.v201008191505.jar"/>
 	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.uml2.uml.source_3.1.2.v201010261927.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse3.6/plugins/org.eclipse.core.resources_3.6.1.R36x_v20110131-1630.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
