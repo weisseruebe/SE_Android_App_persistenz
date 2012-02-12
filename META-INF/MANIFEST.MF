@@ -5,16 +5,16 @@ Bundle-SymbolicName: SE_Android_Persistenz
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: SE_Android_Persistenz.Activator
 Bundle-Vendor: Eclipse Modeling Project
-Require-Bundle: org.eclipse.core.runtime, 
+Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.emf.ecore,
  org.eclipse.emf.ecore,
  org.eclipse.emf.ecore.xmi,
  org.eclipse.ocl,
  org.eclipse.ocl.ecore,
  org.eclipse.acceleo.model,
- org.eclipse.acceleo.engine
+ org.eclipse.acceleo.engine,
+ org.eclipse.uml2.uml
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
 Bundle-ActivationPolicy: lazy
 Eclipse-LazyStart: true
-Export-Package: SE_Android_Persistenz.files,
- UmlJava.files
+Export-Package: UmlJava.files

@@ -1,8 +1,9 @@
 [comment encoding = UTF-8 /]
-[module generateUMLClass2Java('http://www.eclipse.org/uml2/2.1.0/UML')/]
+[module generateUMLClass2Java('http://www.eclipse.org/uml2/3.0.0/UML')/]
 
 [template public generateJavaClass(c : Class)]
 [comment @main /]
+
 [file (c._package.name + '/' + c.name + '.java', false)]
 package [c._package.name/];
 
@@ -16,7 +17,7 @@ import org.simpleframework.xml.Root;
 import org.simpleframework.xml.Serializer;
 import org.simpleframework.xml.core.Persister;
 
-@Root
+@Root(strict=false)
 [/if]
 public[if (c.isAbstract)] abstract[/if] class [c.name/] [generalization(c)/]{
 
@@ -93,10 +94,15 @@ import java.util.ArrayList;
 	[if (p.type.getAppliedStereotype('Profile::xmlroot') <> null)]
 	[if (p.upper = -1 or p.upper > 1)]@ElementList[else]@Element[/if][/if]
 	[if (p.getAppliedStereotype('Profile::xmlattribute') <> null)]
-	@Attribute[/if]
+	@Attribute[required(p)/][/if]
 	[if (p.getAppliedStereotype('Profile::xmlelement') <> null)]
-	[if (p.upper = -1 or p.upper > 1)]@ElementList[else]@Element[/if][/if]
+	[if (p.upper = -1 or p.upper > 1)]@ElementList[else]@Element[required(p)/][/if][/if]
 [/template]
+
+[template public required(p:Property)]
+	[if (p.getAppliedStereotype('Profile::required')<>null)](required=true)[else](required=false)[/if]
+[/template]
+
 
 [template public associations(a:Association, c:Class)]	[comment ToDo: Aggregation, nondirectional, etc. /]
 [for (p:Property | a.navigableOwnedEnd)]

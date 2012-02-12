@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Profile="http:///schemas/Profile/_nUUtwCvkEeGKtKdh9Y6QRQ/5" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/Profile/_nUUtwCvkEeGKtKdh9Y6QRQ/5 ../SimpleXMLProfile/profile.profile.uml#_nUUtwSvkEeGKtKdh9Y6QRQ">
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Profile="http:///schemas/Profile/_azDNcFWEEeGdxacxJvYDew/6" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/Profile/_azDNcFWEEeGdxacxJvYDew/6 ../SimpleXMLProfile/profile.profile.uml#_azGQwFWEEeGdxacxJvYDew">
   <uml:Model xmi:id="_4FY_0DxOEeGXEoggOa7gQw" name="Model">
     <packageImport xmi:id="_4FY_0TxOEeGXEoggOa7gQw">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -12,6 +12,9 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TATuITxPEeGXEoggOa7gQw" value="*"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TATuIjxPEeGXEoggOa7gQw"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_1PyncFWDEeGdxacxJvYDew" name="description">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_CTRJEDxPEeGXEoggOa7gQw" name="Poi">
       <ownedAttribute xmi:id="_GyyoYDxPEeGXEoggOa7gQw" name="name">
@@ -23,6 +26,9 @@
       <ownedAttribute xmi:id="_HRZ3ADxPEeGXEoggOa7gQw" name="lon">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_6PHBIFWDEeGdxacxJvYDew" name="description">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_TAWKYDxPEeGXEoggOa7gQw" name="pois" memberEnd="_TAWKYTxPEeGXEoggOa7gQw _TATuIDxPEeGXEoggOa7gQw">
       <ownedEnd xmi:id="_TAWKYTxPEeGXEoggOa7gQw" name="tour" type="_BrQG0DxPEeGXEoggOa7gQw" association="_TAWKYDxPEeGXEoggOa7gQw">
@@ -32,7 +38,7 @@
     </packagedElement>
     <profileApplication xmi:id="_FPIAwDxQEeGXEoggOa7gQw">
       <eAnnotations xmi:id="_FP4OsDxQEeGXEoggOa7gQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="../SimpleXMLProfile/profile.profile.uml#_nUUtwSvkEeGKtKdh9Y6QRQ"/>
+        <references xmi:type="ecore:EPackage" href="../SimpleXMLProfile/profile.profile.uml#_azGQwFWEEeGdxacxJvYDew"/>
       </eAnnotations>
       <appliedProfile href="../SimpleXMLProfile/profile.profile.uml#_4Dz84ApFEeG-Q6-ECyzqKA"/>
     </profileApplication>
@@ -43,4 +49,8 @@
   <Profile:xmlattribute xmi:id="_LPUooDxQEeGXEoggOa7gQw" base_Property="_GyyoYDxPEeGXEoggOa7gQw"/>
   <Profile:xmlelement xmi:id="_MLNpIDxQEeGXEoggOa7gQw" base_Property="_HAfGIDxPEeGXEoggOa7gQw"/>
   <Profile:xmlelement xmi:id="_M_nhkDxQEeGXEoggOa7gQw" base_Property="_HRZ3ADxPEeGXEoggOa7gQw"/>
+  <Profile:xmlattribute xmi:id="_4zfXsFWDEeGdxacxJvYDew" base_Property="_1PyncFWDEeGdxacxJvYDew"/>
+  <Profile:xmlattribute xmi:id="_8E8hYFWDEeGdxacxJvYDew" base_Property="_6PHBIFWDEeGdxacxJvYDew"/>
+  <Profile:required xmi:id="_X1NRYFWGEeGdxacxJvYDew" base_Property="_GyyoYDxPEeGXEoggOa7gQw"/>
+  <Profile:required xmi:id="_Y_deAFWGEeGdxacxJvYDew" base_Property="_He8jwDxPEeGXEoggOa7gQw"/>
 </xmi:XMI>
